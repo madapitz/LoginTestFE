@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-routing = (
+const routing = (
 	<Router>
 		<Switch>
 			<Route path="/" component={App} />
